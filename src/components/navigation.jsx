@@ -1,7 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
 export default class Navigation extends Component {
-  render() {
+  	render() {
     return (
     <React.Fragment>
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
@@ -12,7 +13,9 @@ export default class Navigation extends Component {
 		  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon" /></button>
 		  <div className="collapse navbar-collapse" id="navbarSupportedContent">
 		    <ul className="navbar-nav">
-		      <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#about">About</a></li>
+		    <Link className="nav-item" activeClass="active" to="AboutContainer"spy={true} smooth={true} hashSpy={true} offset={50} duration={500} delay={1000} isDynamic={true} onSetActive={this.handleSetActive} onSetInactive={this.handleSetInactive} ignoreCancelEvents={false}>
+		    	<a className="nav-link" href="#about">About</a>
+		    </Link>
 		      <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
 		      <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#education">Education</a></li>
 		      <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#skills">Skills</a></li>

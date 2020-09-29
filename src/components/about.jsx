@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
 export default class About extends Component {
   render() {
     return (
-    <React.Fragment>
+    <Element id="AboutContainer">
 		<section className="resume-section" id="about">
 		  <div className="resume-section-content">
 		    <h1 className="mb-0">
@@ -24,7 +25,7 @@ export default class About extends Component {
 		  </div>
 		</section>
 		<hr className="m-0" />
-	</React.Fragment>
+	</Element>
     )
   }
 };
