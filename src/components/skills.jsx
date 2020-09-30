@@ -13,21 +13,20 @@ export default class Skills extends Component {
 	        <li className="list-inline-item"><i className="fab fa-html5" /></li>
 	        <li className="list-inline-item"><i className="fab fa-css3-alt" /></li>
 	        <li className="list-inline-item"><i className="fab fa-js-square" /></li>
-	        <li className="list-inline-item"><i className="fab fa-angular" /></li>
+	        <li className="list-inline-item"><i className="fab fa-python" /></li>
 	        <li className="list-inline-item"><i className="fab fa-react" /></li>
 	        <li className="list-inline-item"><i className="fab fa-node-js" /></li>
-	        <li className="list-inline-item"><i className="fab fa-sass" /></li>
-	        <li className="list-inline-item"><i className="fab fa-less" /></li>
-	        <li className="list-inline-item"><i className="fab fa-wordpress" /></li>
-	        <li className="list-inline-item"><i className="fab fa-gulp" /></li>
-	        <li className="list-inline-item"><i className="fab fa-grunt" /></li>
+	        <li className="list-inline-item"><i className="fab fa-git" /></li>
+	        <li className="list-inline-item"><i className="fab fa-yarn" /></li>
 	        <li className="list-inline-item"><i className="fab fa-npm" /></li>
+	        <li className="list-inline-item"><i className="fab fa-laravel" /></li>
+	        <li className="list-inline-item"><i className="fab fa-linux" /></li>
 	      </ul>
 	      <div className="subheading mb-3">Workflow</div>
 	      <ul className="fa-ul mb-0">
 	        <li>
 	          <span className="fa-li"><i className="fas fa-check" /></span>
-	          Mobile-First, Responsive Design
+	          Full-stack development
 	        </li>
 	        <li>
 	          <span className="fa-li"><i className="fas fa-check" /></span>
@@ -35,7 +34,7 @@ export default class Skills extends Component {
 	        </li>
 	        <li>
 	          <span className="fa-li"><i className="fas fa-check" /></span>
-	          Cross Functional Teams
+	          Project management
 	        </li>
 	        <li>
 	          <span className="fa-li"><i className="fas fa-check" /></span>

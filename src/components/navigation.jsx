@@ -27,13 +27,7 @@ export default class Navigation extends Component {
 			    <Link className="nav-link" activeClass="active" to="SkillsContainer" spy={true} smooth={true} hashSpy={true} duration={500} isDynamic={true} onSetActive={this.handleSetActive} onSetInactive={this.handleSetInactive} ignoreCancelEvents={false}>
 			    	Skills
 			    </Link>
-			    <Link className="nav-link" activeClass="active" to="InterestsContainer" spy={true} smooth={true} hashSpy={true} duration={500} isDynamic={true} onSetActive={this.handleSetActive} onSetInactive={this.handleSetInactive} ignoreCancelEvents={false}>
-			    	Interests
-			    </Link>
-			    <Link className="nav-link" activeClass="active" to="AwardsContainer" spy={true} smooth={true} hashSpy={true} duration={500} isDynamic={true} onSetActive={this.handleSetActive} onSetInactive={this.handleSetInactive} ignoreCancelEvents={false}>
-			    	Awards
-			    </Link>
-		    </div>
+			   </div>
 		    </ul>
 		  </div>
 		</nav>
