@@ -1,9 +1,10 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Element } from 'react-scroll';
 
 export default class Skills extends Component {
   render() {
     return (
-    <React.Fragment>
+    <Element id="SkillsContainer">
 	  <section className="resume-section" id="skills">
 	    <div className="resume-section-content">
 	      <h2 className="mb-5">Skills</h2>
@@ -44,7 +45,7 @@ export default class Skills extends Component {
 	    </div>
 	  </section>
 	  <hr className="m-0" />
-	</React.Fragment>
+	</Element>
     )
   }
 };
